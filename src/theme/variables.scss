@@ -1,2 +1,37 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-pur: #9668bb;
+	--ion-color-pur-rgb: 150,104,187;
+	--ion-color-pur-contrast: #000000;
+	--ion-color-pur-contrast-rgb: 0,0,0;
+	--ion-color-pur-shade: #845ca5;
+	--ion-color-pur-tint: #a177c2;
+}
+
+.ion-color-pur {
+	--ion-color-base: var(--ion-color-pur);
+	--ion-color-base-rgb: var(--ion-color-pur-rgb);
+	--ion-color-contrast: var(--ion-color-pur-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pur-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pur-shade);
+	--ion-color-tint: var(--ion-color-pur-tint);
+}
+
+:root {
+	--ion-color-ple: #e6d093;
+	--ion-color-ple-rgb: 230,208,147;
+	--ion-color-ple-contrast: #000000;
+	--ion-color-ple-contrast-rgb: 0,0,0;
+	--ion-color-ple-shade: #cab781;
+	--ion-color-ple-tint: #e9d59e;
+}
+
+.ion-color-ple {
+	--ion-color-base: var(--ion-color-ple);
+	--ion-color-base-rgb: var(--ion-color-ple-rgb);
+	--ion-color-contrast: var(--ion-color-ple-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-ple-contrast-rgb);
+	--ion-color-shade: var(--ion-color-ple-shade);
+	--ion-color-tint: var(--ion-color-ple-tint);
+}
